@@ -46,7 +46,7 @@ class VM:
             env_qua=dict(prom_env="cph2-qua"),
             env_stg=dict(prom_env="cph2-stg"),
             env_tst=dict(prom_env="cph2-tst"),
-            env_prd=dict(prom_env="cph2-prd"),
+            env_prod=dict(prom_env="cph2-prod"),
         ),
         sto1=dict(
             env_inf=dict(prom_env="sto1"),
