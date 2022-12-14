@@ -24,7 +24,7 @@ class VM:
     comment: str
 
     DEFAULT_TAGS = ['ansible', 'zero_day']
-    DEFAULT_DOMAIN_PRIVATE = 'privatedns.zone'
+    DEFAULT_DOMAIN_PRIVATE = 'uniscale.zone'
     DEFAULT_DOMAIN_PUBLIC = 'publicdns.zone'
     DEFAULT_PROM_ALERT_TYPE = '24-7-devops'
 
