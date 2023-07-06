@@ -33,7 +33,7 @@ class VM:
             env_inf=dict(prom_env="cph2-inf"),
             env_dev=dict(prom_env="cph2-dev"),
             env_prod=dict(prom_env="cph2-prod"),
-            env_private_cloud=dict(prom_env="cph2-private-cloud")
+            env_private=dict(prom_env="cph2-private")
         )
     )
 
