@@ -29,41 +29,12 @@ class VM:
     DEFAULT_PROM_ALERT_TYPE = '24-7-devops'
 
     PROMETHEUS_DICT = dict(
-        cph1=dict(
-            env_dev=dict(prom_env="dev"),
-            env_cmi=dict(prom_env="cph-migration"),
-            env_cse=dict(prom_env="cph-secure"),
-            env_dmo=dict(prom_env="demo"),
-            env_inf=dict(prom_env="cph-inf"),
-            env_qua=dict(prom_env="qa"),
-            env_tst=dict(prom_env="tst"),
-        ),
         cph2=dict(
-            env_pmpdev=dict(prom_env="cph2-pmpdev"),
-            env_pltdev=dict(prom_env="cph2-pltdev"),
             env_inf=dict(prom_env="cph2-inf"),
             env_dev=dict(prom_env="cph2-dev"),
-            env_qua=dict(prom_env="cph2-qua"),
-            env_stg=dict(prom_env="cph2-stg"),
-            env_tst=dict(prom_env="cph2-tst"),
             env_prod=dict(prom_env="cph2-prod"),
-        ),
-        sto1=dict(
-            env_inf=dict(prom_env="sto1"),
-            env_pee=dict(prom_env="pee"),
-            env_pfi=dict(prom_env="pfi"),
-            env_ppt=dict(prom_env="ppt"),
-            env_tst=dict(prom_env="sto1"),
-        ),
-        osl1=dict(
-            env_dev=dict(prom_env="psno"),
-            env_inf=dict(prom_env="infrastructure"),
-            env_plt=dict(prom_env="psno"),
-            env_pno=dict(prom_env="psno"),
-            env_ppt=dict(prom_env="ppt"),
-        ),
-        aeu1=dict(
-            env_inf=dict(prom_env="aeu1-inf"),
+            env_prod=dict(prom_env="cph2-private-cloud"),
+
         )
     )
 
